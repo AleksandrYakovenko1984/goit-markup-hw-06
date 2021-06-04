@@ -720,11 +720,9 @@ position: absolute;
     position: relative;
     overflow: hidden;
   }
-  .card p {
-    width: 322px;
-    
-  }
   .overlay {
+    display: flex;
+    box-sizing: border-box;
     position: absolute;
     top: 0;
     left: 0;
@@ -738,7 +736,7 @@ position: absolute;
     font-size: 18px;
     line-height: 1.55;
     /* or 156% */
-
+align-items: center;
     letter-spacing: 0.03em;
     color: #ffffff;
     padding: 20px;

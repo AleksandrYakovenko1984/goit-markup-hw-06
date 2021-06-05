@@ -298,6 +298,10 @@
             </svg></a></li>
           </ul>
         </div>
+        <form action="#">
+          <b class="footer-form-name">Подпишитесь на рассылку</b>
+          <label for=""><input class="footer-input" type="text" placeholder="E-mail"></label>
+        </form>
       </div>
         </address>
       </div>
@@ -309,6 +313,22 @@
       <button class="modal-close-btn" type="button" data-modal-close> <svg class="close-icon">
         <use width="30" height="30" href="./images/icon-img/symbol-defs.svg#icon-close"></use>
       </svg></button>
+      <form action="#" class="modal-form">
+        <b class="modal-form-call">Оставьте свои данные, мы вам перезвоним</b>
+        <label class="modal-form-text" for="">Имя <span class="mdl-inp">  <input name="user-name" class="modal-form-input" type="text" minlength="2" required><svg class="icon-input">
+          <use href="./images/icon-img/symbol-defs-mdl.svg#icon-name-icon-mdl"></use>
+        </svg></span></label>
+        <label class="modal-form-text" for="">Телефон <span class="mdl-inp"> <input name="user-tel" class="modal-form-input" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="096-111-11-11" required><svg class="icon-input">
+            <use href="./images/icon-img/symbol-defs-mdl.svg#icon-phone-mdl"></use>
+          </svg></span></label>
+        <label class="modal-form-text" for="">Почта<span class="mdl-inp"> <input name="user-mail" class="modal-form-input" type="text" required><svg class="icon-input">
+            <use href="./images/icon-img/symbol-defs-mdl.svg#icon-email-mdl"></use>
+          </svg></span></label>
+        <label class="modal-form-text" for="">Комментарий<textarea name="user-message" class="modal-form-message" name="" placeholder="Введите текст" id="" ></textarea></label>
+        <input name="user-policy" type="checkbox" id="checkbox-policy" class="modal-checkbox" required>
+        <label class="modal-checkbox-policy" for="checkbox-policy">  Соглашаюсь с рассылкой и принимаю<a class="link-check" href="">Условия договора</a></label>
+        <button type="submit" class="modal-form-btn">Отправить</button>
+      </form>
     </div>
   </div>
 <script src="./js/modal.js"></script>

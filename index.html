@@ -302,8 +302,10 @@
         <form class="footer-form" action="#">
           <b class="footer-form-name">Подпишитесь на рассылку</b>
           <label for="form-foot"></label>
-          <div class="form-btn"><input id="form-foot" name="footer-form" class="footer-input" type="text" placeholder="E-mail">
-          <button class="button-send" type="submit">Подписаться </button>
+          <div class="form-btn"><input id="form-foot" name="mail-form" class="footer-input" type="text" placeholder="E-mail" required>
+          <button class="button-send" type="submit">Подписаться <svg class="icon-btn">
+            <use href="./images/icon-img/symbol-defs-mdl.svg#icon-send"></use>
+          </svg> </button>
 </div>
         </form>
       </div>
@@ -317,6 +319,7 @@
       <button class="modal-close-btn" type="button" data-modal-close> <svg class="close-icon">
         <use width="30" height="30" href="./images/icon-img/symbol-defs.svg#icon-close"></use>
       </svg></button>
+      <!-- MODAL FORM-MODAL FORM-MODAL FORM-MODAL FORM-MODAL FORM-->
       <form action="#" class="modal-form">
         <b class="modal-form-call">Оставьте свои данные, мы вам перезвоним</b>
         <label class="modal-form-text" for="">Имя <span class="mdl-inp">  <input name="user-name" class="modal-form-input" type="text" minlength="2" required><svg class="icon-input">
